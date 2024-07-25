@@ -1,0 +1,350 @@
+     
+*{
+   
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+  
+}
+ul li a{
+ text-decoration: none;
+ list-style: none;
+ color:#f3f3f3;
+}
+ul{
+    padding-left: none !important;
+}
+body{
+    
+   font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    width:100%;
+    height:100vh;
+    /* font-family: "Montserrat"; */
+}
+.nav-item{
+    font-weight: 600;
+}
+.navbar-toggler-icon{
+    height: 2rem;
+    width:2rem;
+}
+/* header */
+.header{
+    position: relative;
+    background-image: url("images/header.jpg");
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    height:80vh;
+    width:100%;
+    background-size: cover;
+    align-items: center;
+    display: flex;
+}
+.header-content{
+    display: flex;
+    flex-direction: column;
+    width: 100%;;
+    justify-content: left;
+    /* background-color: aqua; */
+    /* align-items: center; */
+    /* justify-content: center; */
+}
+.main-h{
+    font-weight: 200;
+        font-size: 3rem;
+}
+/* }
+.header-content{
+    position: absolute;
+    top: 20%; 
+    left:10%;
+    width: 50%;
+    line-height: 2rem;
+     /* justify-items: center; */
+ 
+/* about */
+.about{
+    margin-top: 3rem;
+    /* height:20rem; */
+}
+.about-image{
+    height:50vh; 
+  
+}
+.abt-btn{
+    width: 100%;
+    margin-bottom: 1rem;
+    padding-top: 18rem;
+}
+/* departments */
+.departments{
+    background-image: url("images/figure8\ \(1\).png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* height:300px; */
+    background-color:#f3f3f3;
+    
+}
+.fa-star {
+    color:yellow;
+    margin-right: 0.5rem;
+}
+.icon{
+    color: rgb(183, 183, 242);
+    /* font-weight: 400; */
+    /* font-size: 20px; */
+    /* height: 50px; */
+}
+
+.icon .depart-icon{
+     font-size: 3rem;
+}
+
+.card{
+    padding: 2rem;
+    width: 80%;
+}
+/* contacts */
+.contacts{
+    background-color: #f3f3f3;
+}
+.calendar-news-row{
+    display:flex;
+    gap:2rem;
+    /* justify-content: space-e; */
+}
+.calendar-news{
+    display: flex;
+    justify-content: space-evenly;
+}
+.stars{
+    display: flex;
+    /* background-color: yellow; */
+}
+.right{
+    background-color: #3b6df0;
+}
+.btn-white{
+    border: 1px solid black;
+}
+.logo{
+    height: 48px;
+    color:#f3f3f3;
+}
+.footer{
+    line-height: 2rem;
+    padding-top: 2rem;
+}
+
+    .f-head {
+        position: relative;
+      }
+      .f-head::after{
+        content:"";
+        display: block;
+        width: 80px;
+        height: 3px;
+        background: #3b6df0;
+        position: absolute;
+        left: 0;
+        top:120%;
+      }
+      .close{
+        font-size: 3rem;
+      }
+      
+      
+  /* slider */
+ .card-wrapper{
+    display: flex;
+ }
+ /*  */
+ 
+   div#carousel .owl-nav button {
+    position: absolute;
+    top: -50%;
+    background-color: #000;
+
+    margin-top: 50px;
+    
+
+    
+    transition: all 0.3s ease-in-out;
+  }
+  div#carousel .owl-nav button.owl-prev {
+    left: 30
+  }
+  div#carousel .owl-nav button.owl-next {
+    right: 0;
+  }
+  
+  div#carousel .owl-dots {
+    text-align: center;
+    padding-top: 15px;
+  }
+  div#carousel .owl-dots button.owl-dot {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    display: none;
+    background: #ccc;
+    margin: 0 3px;
+
+  }
+  div#carousel .owl-dots button.owl-dot.active {
+    background-color: #000;
+  }
+  div#carousel .owl-dots button.owl-dot:focus {
+    outline: none;
+  }
+  div#carousel .owl-nav button {
+    height: 2px;
+      position: absolute;
+       /* top: -0;   */
+        bottom: -500;
+       /* right:2; */
+      transform: translateY(-50%);
+      background: #ffffff !important;
+      border-radius: 100%;
+  } 
+  .owl-nav span {
+      font-size: 50px;    
+      position: relative; 
+      /* top: 5px; */
+   }
+   div#carousel .owl-nav button:focus {
+      outline: none;
+  }
+  div#carousel button.owl-prev{
+    position: absolute;
+     margin-left: 50rem; }
+  
+  /* last footer */
+  .last-footer{
+    background-color: #2a2a2a;
+    color:#ffffff;
+    padding-top: 2rem;
+  }
+.upper-icon{
+    background-color: #3b6df0;
+     border-radius: 100%;
+     padding: 11px 11px;
+}
+.last-footer-input{
+    background-color: #000;
+    padding:10px;
+    height: 50px;
+    border: none;
+
+    border-radius: 20px 0 0 20px;
+
+}
+.inp-form{
+    border-radius: 1rem !important;
+}
+.btn-upi{
+    border-radius: 0 20px 20px 0;
+    padding: 10px;
+    color:#ffffff;
+}
+/* top nab */
+.call{
+    position: relative;
+}
+
+/* .call::after{
+    content:"";
+    display: block;
+    width: 80px;
+    height: 3px;
+    background: #3b6df0;
+    position: absolute;
+    left: 120%;
+    top:0;
+  } */
+.top-nav{
+    border-bottom:1px solid rgba(0,0,0,0.5);
+}
+  /* contact hr */
+  .hr{
+    width: 70%;
+  }
+  .news-btn{
+    background-color: #fff;
+    color: #000;
+    border: none;
+  }
+  .blue{
+    color: #3b6df0 !important;
+  }
+  .socio-icons-top{
+    color: #757272;
+  }
+  /* another */
+  #car.owl-nav button {
+    position: absolute;
+   top: -50%;
+    background-color: #000;
+    color: #fff;
+    margin: 0;
+    transition: all 0.3s ease-in-out;
+  }
+  #car.owl-nav button.owl-prev {
+    left: 0;
+  
+    
+  }
+  #car.owl-nav button.owl-next {
+    right: 0;
+  }
+  
+  #car.owl-dots {
+    text-align: center;
+    padding-top: 15px;
+  }
+  #car.owl-dots button.owl-dot {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    display: none;
+    background: #ccc;
+    margin: 0 3px;
+  }
+  #car.owl-dots button.owl-dot.active {
+    background-color: #000;
+  }
+  #car.owl-dots button.owl-dot:focus {
+    outline: none;
+  }
+  #car.owl-nav button {
+      position: absolute;
+      top:0;
+      /* top: 50%; */
+      transform: translateY(-50%);
+      background: rgba(255, 255, 255, 0.38) !important;
+  }
+  #car span {
+      font-size: 50px;    
+      position: relative;
+       top: -25rem; 
+       left:22rem;
+       
+       
+       
+       
+  }
+  #car.owl-nav button:focus {
+      outline: none;
+  }
+  
+  .call::after{
+    content:'';
+    position: absolute;
+    background-color: rgba(0,0,0,0.10);
+    width: 3px;
+    height:90%;
+    bottom: 0.5rem;
+    left:20rem;
+  }

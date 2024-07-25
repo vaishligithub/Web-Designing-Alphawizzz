@@ -1,0 +1,77 @@
+
+@media(max-width: 1199px){
+    .card{
+        margin-bottom: 1rem !important;
+        /* margin: 0 !important; */
+        height: 29rem !important;
+    }
+    .about{
+        margin-bottom: 2rem !important;
+    }
+    .footer{
+        text-align: center;
+        line-height: 3rem;
+    }
+    .number-box{
+        margin-left: 0 !important;
+        text-align: center;
+    }
+    .social-fonticons{
+        margin-left: 17rem !important;
+    }
+    .second-logo-row{
+        margin-top: 2rem !important;
+    }
+    .about-img{
+        margin-top: 3rem;
+    }
+}
+/*  */
+ 
+@media(max-width: 767px){
+    .top-nav{
+        display: none;
+    }
+    .case-studies-section{
+        padding: 0 !important;
+    }
+    .social-fonticons{
+        margin-left: 5rem !important;
+    }
+    .case-heading{
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+    .features .or-btn{
+        margin-top: 1rem;
+    }
+    .header-box{
+        flex-direction: column;
+        width:70%;
+    }
+    .main-heading{
+        font-size: 2rem;
+    }
+    .second-logo-row{
+        margin-top: 2rem !important; 
+    }
+    .logo-icons{
+        padding: 0 !important;
+    }
+    .pd-features{
+        text-align: center;
+    }
+    .padding-social{
+        margin:0 ;
+
+    }
+    .social-media-cards{
+        padding: 2rem 1rem !important;
+        margin-top: 2rem;
+    }
+    .social-card{
+        margin-top: 1.5rem !important;
+    }
+    
+}

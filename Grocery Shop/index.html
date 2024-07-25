@@ -1,0 +1,772 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sixth Task</title>
+    <!-- codepen -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    />
+    <!-- bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <!-- link css -->
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaquery.css" />
+  </head>
+  <body>
+    <!-- top-navbar -->
+    <section class="top-nav">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 d-flex">
+            <div class="col-lg-6">
+              <h6>Help & Support</h6>
+            </div>
+            <div class="col-lg-6">
+              <h6>Payment method</h6>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <h6>Free delivery for all orders your food now</h6>
+          </div>
+          <div class="col-lg-4 text-end">
+            <h6>Email now: demo@demo.com</h6>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- seconf-top -->
+    <section class="second-top">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-md-6">
+            <h3>NAV<span class="logo-span">BAR</span></h3>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="search-box">
+              <input type="text" placeholder="Find our search" />
+              <span class="search-icon"
+                ><i class="fa-solid fa-magnifying-glass"></i
+              ></span>
+            </div>
+          </div>
+          <div class="col-lg-4 d-flex justify-content-end col-md-6">
+            <i class="fa-solid fa-headphones headphone-top"></i>
+            <div class="headfone-content">
+              <p>Hotline number</p>
+              <p>+92 123 456 7690</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- navbar -->
+    <section class="main-nav">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 gap-4">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">HOME</a>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  COLLECTION
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">PRODUCT</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">BLOG</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">CONTACT US</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  PAGES
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <div class="right-nav me-2 d-flex gap-4">
+              <p><i class="fa-solid fa-user me-2"></i>Login & Register</p>
+              <p><i class="fa-regular fa-heart me-2"></i>My wishlist</p>
+              <p><i class="fa-solid fa-cart-shopping me-2"></i>My cart(0)</p>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </section>
+    <!-- header -->
+    <section class="header">
+      
+        <div class="container-fluid">
+          <div class="owl-slider">
+            <div id="carousel" class="owl-carousel">
+              <div class="item">
+                <div class="content">
+                  <p class="red-para">Pure 100% fresh store 2023</p>
+                  <h1 class="main-heading">ORGANIC <br />GROCERY</h1>
+                  <p>Free delivery around 5KM</p>
+                  <button class="main-btn">SHOP ONLINE</button>
+                </div>
+              </div>
+              <div class="item">
+                <div class="content">
+                  <p class="red-para">Pure 100% fresh store 2023</p>
+                  <h1 class="main-heading">ORGANIC <br />GROCERY</h1>
+                  <p>Free delivery around 5KM</p>
+                  <button class="main-btn">SHOP ONLINE</button>
+                </div>
+              </div>
+              <div class="item">
+                <div class="content">
+                  <p class="red-para">Pure 100% fresh store 2023</p>
+                  <h1 class="main-heading">ORGANIC <br />GROCERY</h1>
+                  <p>Free delivery around 5KM</p>
+                  <button class="main-btn">SHOP ONLINE</button>
+                </div>
+              </div>
+              <div class="item">
+                <div class="content">
+                  <p class="red-para">Pure 100% fresh store 2023</p>
+                  <h1 class="main-heading">ORGANIC <br />GROCERY</h1>
+                  <p>Free delivery around 5KM</p>
+                  <button class="main-btn">SHOP ONLINE</button>
+                </div>
+              </div>
+              <div class="item">
+                <div class="content">
+                  <p class="red-para">Pure 100% fresh store 2023</p>
+                  <h1 class="main-heading">ORGANIC <br />GROCERY</h1>
+                  <p>Free delivery around 5KM</p>
+                  <button class="main-btn">SHOP ONLINE</button>
+                </div>
+              </div>
+            </div>
+          </div>
+   
+      </div>
+    </section>
+    <!-- second-section -->
+    <section class="second">
+      <div class="container">
+        <div class="row d-flex justify-content-center gap-4">
+          <h2 class="text-center fw-bold fs-1">Browse category</h2>
+
+          <div class="col-lg-2 col-md-6">
+            <div class="cart">
+              <img src="assets-image/cat-05.webp" />
+              <p>Bread</p>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-6">
+            <div class="cart">
+              <img src="assets-image/cat-06.webp" />
+              <p>Bread</p>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-6">
+            <div class="cart">
+              <img src="assets-image/cat-01.webp" />
+              <p>Bread</p>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-6">
+            <div class="cart">
+              <img src="assets-image/cat-05.webp" />
+              <p>Bread</p>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-6">
+            <div class="cart">
+              <img src="assets-image/cat-05.webp" />
+              <p>Bread</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <hr />
+    <!-- grocery-->
+    <section class="grocery">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-md-6">
+            <div class="left-box">
+              <p class="red-text">Most story for grocery 2023</p>
+              <h3 class="heading">
+                Grocery shopping done the safe way for grocery
+              </h3>
+              <p class="margin-top">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam,
+                animi, temporibus, sequi nisi cupiditate vitae a aliquid
+                perspiciatis neque eaque aliquam sint atque soluta nostrum?
+              </p>
+              <button class="main-btn mt-4">MOST STORY</button>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-6">
+            <div class="right-box">
+              <div class="black-img">
+                <img src="assets-image/grocery-blog-08.webp" />
+              </div>
+             
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- products -->
+    <section class="products">
+      <div class="container">
+        <div class="row">
+          <h3 class="heading text-center mb-4">Trending Product</h3>
+          <div class="col-lg-3 col-md-4">
+            <div class="prod-box">
+              <img src="assets-image/grocery-product-09.webp" />
+              <div class="prod-detail">
+                <p >Fresh chickpea 120gm</p>
+                <p>
+                  <span class="green-text">$21.00</span>-<span class="del"
+                    >$25.00</span
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4">
+            <div class="prod-box">
+              <img src="assets-image/grocery-product-10.webp" />
+              <div class="prod-detail">
+                <p>Fresh chickpea 120gm</p>
+                <p>
+                  <span class="green-text">$21.00</span>-<span class="del"
+                    >$25.00</span
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4">
+            <div class="prod-box">
+              <img src="assets-image/grocery-product-07.webp" />
+              <div class="prod-detail">
+                <p>Fresh chickpea 120gm</p>
+                <p>
+                  <span class="green-text">$21.00</span>-<span class="del"
+                    >$25.00</span
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4">
+            <div class="prod-box">
+              <img src="assets-image/grocery-product-10.webp" />
+              <div class="prod-detail">
+                <p >Fresh chickpea 120gm</p>
+                <p>
+                  <span class="green-text">$21.00</span>-<span class="del"
+                    >$25.00</span
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4">
+            <div class="prod-box">
+              <img src="assets-image/grocery-product-07.webp" />
+              <div class="prod-detail">
+                <p>Fresh chickpea 120gm</p>
+                <p>
+                  <span class="green-text">$21.00</span>-<span class="del"
+                    >$25.00</span
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4">
+            <div class="prod-box">
+              <img src="assets-image/grocery-product-07.webp" />
+              <div class="prod-detail">
+                <p >Fresh chickpea 120gm</p>
+                <p>
+                  <span class="green-text">$21.00</span>-<span class="del"
+                    >$25.00</span
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4">
+            <div class="prod-box">
+              <img src="assets-image/grocery-product-07.webp" />
+              <div class="prod-detail">
+                <p>Fresh chickpea 120gm</p>
+                <p>
+                  <span class="green-text">$21.00</span>-<span class="del"
+                    >$25.00</span
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4">
+            <div class="prod-box">
+              <img src="assets-image/grocery-product-07.webp" />
+              <div class="prod-detail">
+                <p>Fresh chickpea 120gm</p>
+                <p>
+                  <span class="green-text">$21.00</span>-<span class="del"
+                    >$25.00</span
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- <div class="red-line">
+      <div class="container">
+      <marquee>
+        <div class="row d-flex ">
+        <div class="col-lg-2">
+          <p>Grocery items only freshly</p>
+        </div>
+        <div class="col-lg-3">
+          <p>Most popular item for grocery items</p>
+        </div>
+        <div class="col-lg-3">
+          <p>Our discount perfectly 50% off</p>
+        </div>
+        <div class="col-lg-2">
+          <p>Grocery items only freshly</p>
+        </div>
+        <div class="col-lg-2"><p>Grocery items only freshly</p></div>
+      </div>
+      </marquee>
+      </div>
+    </div> -->
+    <!-- redd codepen -->
+    <!-- <section>
+      <div class="container-fluid">
+        <div id="maindiv">
+          <div id="div1">
+            &nbsp;Grocery items only freshly Most popular item for grocery items Most popular item for grocery items
+          </div>
+          <div id="div2">
+            &nbsp;Most popular item for grocery items
+          </div>
+          <div id="div2">
+            &nbsp;Our discount perfectly 50%off
+          </div>
+        </div>
+    
+      </div>
+    </section> -->
+    <div class="marquee">
+      <div>
+        <span>Grocery items only freshly Most popular item for grocery items Most popular item for grocery items.</span>
+        <span>Most popular item for grocery items</span>
+        <span>Our discount perfectly 50%off</span>
+      </div>
+    </div> 
+   <!-- Deal section -->
+   <section class="deal-sec">
+    <div class="container">
+      <div class="row">
+        <h3 class="heading text-center">Deal of the day</h3>
+        <div class="date text-center d-flex justify-content-center gap-5">
+          <div class="d1">
+            <h6 class="red-text">938</h6>
+            <p>Day</p>
+          </div>
+          <div class="d1">
+            <h6 class="red-text">938</h6>
+            <p>Hour</p>
+          </div>
+
+          <div class="d1">
+            <h6 class="red-text">938</h6>
+            <p>MIN</p>
+          </div>
+
+          <div class="d1">
+            <h6 class="red-text">938</h6>
+            <p>SEC</p>
+          </div>
+
+        </div>
+      </div>
+      <div class="row mt-5">
+        <div class="col-lg-4 col-md-6">
+          <div class="cards card1">
+            <h6 class="red-text">Big offer 80% off</h6>
+            <h2>Fresh <br> Beans</h2>
+            <button class="main-btn mt-3">BUY NOW</button>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="cards card2">
+            <h6 class="red-text">Big offer 80% off</h6>
+            <h2>Fresh <br> Beans</h2>
+            <button class="main-btn mt-3">BUY NOW</button>
+          </div>
+   
+        </div>
+        <div class="col-lg-4 col-md-6 mx-auto">
+          <div class="cards card3">
+            <h6 class="red-text">Big offer 80% off</h6>
+            <h2>Fresh <br> Beans</h2>
+            <button class="main-btn mt-3">BUY NOW</button>
+          </div>
+   
+        </div>
+      </div>
+    </div>
+   </section>
+   <!-- slider -->
+   <section class="slider">
+    <div class="container">
+      <div class="row">
+      
+        <section class="testimonial text-center">
+          <div class="container">
+  
+              <div class="heading">
+                  Customer saying
+              </div>
+              <div id="testimonial4" class="carousel slide testimonial4_indicators testimonial4_control_button thumb_scroll_x swipe_x" data-ride="carousel" data-pause="hover" data-interval="5000" data-duration="2000">
+               
+                  <div class="carousel-inner" role="listbox">
+                      <div class="carousel-item active">
+                          <div class="testimonial4_slide">
+                              <img src="https://i.ibb.co/8x9xK4H/team.jpg" class="img-circle img-responsive" />
+                              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
+                              <h4><span class="green-text"> Maureen biologist</span>~Store customer</h4>
+                          </div>
+                      </div>
+                      <div class="carousel-item">
+                          <div class="testimonial4_slide">
+                              <img src="https://i.ibb.co/8x9xK4H/team.jpg" class="img-circle img-responsive" />
+                              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
+                              <h4><span class="green-text"> Maureen biologist</span>~Store customer</h4>
+                          </div>
+                      </div>
+                      <div class="carousel-item">
+                          <div class="testimonial4_slide">
+                              <img src="https://i.ibb.co/8x9xK4H/team.jpg" class="img-circle img-responsive" />
+                              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
+                              <h4><span class="green-text"> Maureen biologist</span>~Store customer</h4>                          </div>
+                      </div>
+                  </div>
+                  <a class="carousel-control-prev" href="#testimonial4" data-slide="prev">
+                      <span class="carousel-control-prev-icon"><i class="fa-solid fa-left-long"></i></span>
+                  </a>
+                  <a class="carousel-control-next" href="#testimonial4" data-slide="next">
+                      <span class="carousel-control-next-icon"><i class="fa-solid fa-right-long"></i></span>
+                  </a>
+              </div>
+          </div>
+      </section>
+      <!-- subscribe -->
+      <section class="subscribe">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-4 ">
+              <h3 class="fs-1 text-white ms-2">Subscribe newsletter</h3>
+            </div>
+            <div class="col-lg-5 col-md-6">
+              <input class="subscribe-input"  type="text" placeholder="Enter your email">
+              <span class="black-subscribe">SUBSCRIBE</span>
+            </div>
+            <div class="col-lg-3 col-md-6">
+              <div class="green-icon d-flex justify-content-evenly mt-2s">
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-instagram"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+  
+      </div>
+    </div>
+   </section>
+   <!-- story -->
+   <section class="full-bg">
+   <section class="story">
+    <div class="container">
+      <div class="row">
+        <h3 class="heading text-center">Most every story</h3>
+        <div class="col-lg-3 col-md-6">
+          <div class="story-box">
+            <img src="assets-image/grocery-blog-08.webp">
+            <p>It is a long establishe kkk distracted by the readable</p>
+            <h6 class="green-text mt-3">By Mohammad Yusuf</h6>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div class="story-box">
+            <img src="assets-image/grocery-blog-08.webp">
+            <p>It is a long established fact that a will be distracted by the readable</p>
+            <h6 class="green-text mt-3">By Mohammad Yusuf</h6>
+          </div>
+
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div class="story-box">
+            <img src="assets-image/grocery-blog-08.webp">
+            <p>It is a long established fact that a will be distracted by the readable</p>
+            <h6 class="green-text mt-3">By Mohammad Yusuf</h6>
+          </div>
+
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div class="story-box">
+            <img src="assets-image/grocery-blog-08.webp">
+            <p>It is a long established fact that a will be distracted by the readable</p>
+            <h6 class="green-text mt-3">By Mohammad Yusuf</h6>
+          </div>
+
+        </div>
+        <button class="main-btn mx-auto mt-5">VIEW ALL BLOG</button>
+      </div>
+    </div>
+   </section>
+   <!-- policies -->
+   <section class="policies">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-md-6">
+            <div class="policy-box d-flex gap-3">
+              <i class="fa-solid fa-truck"></i>
+              <div class="policy-text">
+                <p class="fw-bold mb-1">Free shipping</p>
+                <p>It uses a dictionary of over 200 lakh words combined!</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="policy-box d-flex gap-3">
+              <i class="fa-solid fa-rotate-left"></i>
+              <div class="policy-text">
+                <p class="fw-bold mb-1">30 Days returnav</p>
+                <p>It uses a dictionary of over 200 lakh words combined!</p>
+              </div>
+            </div>
+  
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="policy-box d-flex gap-3">
+              <i class="fa-solid fa-gift"></i>
+              <div class="policy-text">
+                <p class="fw-bold mb-1">Gift voucher</p>
+                <p>It uses a dictionary of over 200 lakh words combined!</p>
+              </div>
+            </div>
+  
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="policy-box d-flex gap-3">
+              <i class="fa-solid fa-headphones"></i>
+              <div class="policy-text">
+                <p class="fw-bold mb-1">24*7 Live support</p>
+                <p>It uses a dictionary of over 200 lakh words combined!</p>
+              </div>
+            </div>
+  
+          </div>
+        </div>
+        
+      </div>
+   </section>
+   <hr>
+   <!-- footer -->
+   <section class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 col-12">
+          <h1 class="fw-bold">GROC<span class="red-text">O</span></h1>
+          <p>Our experts Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, eveniet!</p>
+          <p><span class="red-text">MON-FRI:</span>6:30 AM TO 8:00 PM</p>
+          <p><span class="red-text">MON-FRI:</span>6:30 AM TO 8:00 PM</p>
+        </div>
+        <div class="col-lg-8 col-md-12 col-12 right-footer d-flex">
+          <div class="col-lg-3 col-md-3 ">
+              <h5 class="red-text">INFORMATION</h5>
+              <p>About story</p>
+              <p>Privacy policy</p>
+              <p>Return policy</p>
+              <p>Terms & condition</p>
+              <p>Payment policy</p>
+          </div>
+          <div class="col-lg-3 col-md-3">
+            <h5 class="red-text">QUICK LINKS</h5>
+            <p>My account</p>
+            <p>My cart</p>
+            <p>My wishlist</p>
+            <p>Item compare</p>
+            <p>Best career</p>
+
+          </div>
+          <div class="col-lg-3 col-md-3 ">
+            <h5 class="red-text">OUR CPMPANY</h5>
+            <p>About company</p>
+            <p>Our service</p>
+            <p>Get the voucher</p>
+            <p>Store locator</p>
+            <p>Help & support</p>
+
+          </div>
+          <div class="col-lg-3 col-md-3 ">
+            <h5 class="red-text">FOLLOWED BY</h5>
+            <p>Instagram</p>
+            <p>Facebook</p>
+            <p>Twitter</p>
+            <p>You Tube</p>
+            <p>Dribble</p>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+   </section>
+  </section>
+  <!-- last footer -->
+  <section class="last-footer">
+  
+      <div class="container">
+        <div class="row">
+    <div class="col-lg-6">
+      <P>Copyright @2023 by quodex <sup>TM</sup></P>
+
+    </div>
+    <div class="col-lg-6">
+      <div class="logo-img d-flex gap-3 justify-content-end">
+        <img src="assets-image/Visa-Logo.png">
+        <img src="assets-image/Visa-Logo.png">
+        <img src="assets-image/Visa-Logo.png">
+        <img src="assets-image/Visa-Logo.png">
+      </div>
+    </div>
+  </div>
+  </div>
+
+  </section>
+  
+   <!-- testimonial -->
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <!-- codepen -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <!-- script -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <!-- -- fontawesomew -->
+    <script
+      src="https://kit.fontawesome.com/4a0482d8ab.js"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      jQuery("#carousel").owlCarousel({
+        autoplay: true,
+        rewind: true /* use rewind if you don't want loop */,
+        margin: 20,
+        /*
+  animateOut: 'fadeOut',
+  animateIn: 'fadeIn',
+  */
+        responsiveClass: true,
+        autoHeight: true,
+        autoplayTimeout: 7000,
+        smartSpeed: 800,
+        nav: true,
+        responsive: {
+          0: {
+            items: 1,
+          },
+
+          600: {
+            items: 1,
+          },
+
+          1024: {
+            items: 1,
+          },
+
+          1366: {
+            items: 1,
+          },
+        },
+      });
+    </script>
+    <script>
+      $('#maindiv').width($('#div1').width());
+    </script>
+    <script>
+      
+    </script>
+
+  </body>
+</html>

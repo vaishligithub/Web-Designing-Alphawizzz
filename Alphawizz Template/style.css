@@ -1,0 +1,250 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500&family=Poppins:ital,wght@0,200;0,300;0,400;1,400&family=Roboto:wght@100;400;700&display=swap');
+
+
+*{
+   
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+
+
+  
+}
+body{
+    
+    font-family: 'Roboto', sans-serif;
+     box-sizing: border-box;
+     width:100%;
+     height:100vh;
+     /* font-family: "Montserrat"; */
+ }
+
+/* common classes */
+ .blur-text{
+    color:#9b9c9d;
+
+ }
+.or-btn{
+    background-image: linear-gradient(to bottom, #fcc775 10%, #f99825 51%);
+    /* background-image: linear-gradient(to bottom,#fcc775  #f99825);
+
+    /* background-color: #f99825; */
+    border:none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color:#ffffff;
+    font-weight: 500;
+
+}
+/* top-nav */
+.top-nav{
+    background-color: #f6f6f6;
+    color:#adadb1;
+    padding-top: 10px;
+
+}
+/* NAVBAR */
+.navbar{
+    padding: 1.3rem !important;
+    background-color: #ffffff !important;
+    color:#8b8990 !important;
+
+    box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
+}
+ .logo{
+    /* margin-left: 4rem; */
+     height: 2.5rem; 
+}
+.nav-btn{
+    background-color: #894ae2 !important;
+    color:#ffffff !important;
+    outline: none !important;
+    border: none !important;
+}
+/* header */
+.left-header{
+    padding-left: 1rem;
+    margin-top: 3rem;
+}
+.main-heading{
+    
+    font-size: 3rem;
+    font-weight: 800;
+}
+.box-icon{
+    font-size: 2rem;
+    color:#dedddc;
+}
+.header-box p{
+  margin: 0;
+}
+.h-box{
+    padding:15px;
+    margin-top: 10px;
+    border: 2px solid #dedddc
+    ;
+}
+.h-box-2{
+    padding-right: 2rem;
+}
+.orange, .fa-star{
+    color:#f99825;
+    font-weight: 500;
+    ;
+}
+/* cards */
+.card-img{
+    height: 13rem;
+    width:100%;
+}
+.card{
+    text-align: center;
+    margin: 1rem;
+    /* padding: 2rem; */
+     height:26rem;  
+     border-radius: 20px !important;
+     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
+}
+.content{
+    padding: 1rem;
+}
+/* about */
+.about-img{
+    width:100%;
+}
+.about{
+}
+/* social-cards */
+.social-media-cards{
+    
+    background-color: #894ae2;
+    color:#ffffff;
+    padding: 2rem;
+
+}
+.purple{
+    color:#bfb6f3 !important;
+}
+/* .card{
+    width:2rem;
+
+} */
+.social-card{
+    margin-bottom: 2rem;
+    text-align: center;
+    height:15rem;
+   }
+.padding-social {
+    
+   
+    padding: 2rem ;
+    margin: 0 2rem;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+}
+.social-card img{
+    height:10rem;
+}
+/* features */
+.pd-features{
+    padding: 2rem;
+}
+.pd-features img{
+   height: 5rem;
+}
+.purple-btn{
+    background-image: linear-gradient(to bottom, #8921ac 10%, #894ae2 51%);
+    
+    border:none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color:#ffffff;
+    font-weight: 500;
+}
+/* logo-icons */
+.logo-icons{
+
+background-color: #e5eef3
+;
+}
+.purple-box{
+    padding: 1rem;
+    line-height: 2rem;
+    margin: 0 2rem;
+    background-color: #894ae2;
+    color:#ffffff;
+    border-radius: 1rem;
+    text-align: center;
+}
+.purple-box p{
+    font-size: 1.2rem;
+}
+.fa-square{
+    text-align: center;
+    margin: auto;
+
+}
+.logo{
+    font-size: 4rem;
+    color:#727779;
+    font-weight: 100;
+    
+
+}
+.logo-container{
+    margin: 1.5rem;
+    padding-left: 4rem;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+margin: 1rem;
+}
+/* case studies */
+.case-studies-section{
+    background-color: #d5e2e9;
+}
+/* contact */
+.contact-section{
+    background-color: #894ae2;
+    color:#dfd6f9;
+    padding: 2rem;
+}
+.number-box{
+    margin-left: 5rem;
+}
+/* footer */
+.footer{
+    background-color: #6a00b5;
+    color:#bfb6f3;
+     padding: 2rem; 
+}
+.logo-footer{
+    height:3rem;
+    margin-left: 2.5rem;
+}
+.purple{
+    color:#6a00b5
+    ;
+
+}
+.case-studies-section{
+    padding: 3rem !important;
+}
+/* owl */
+.owl-nav button.owl-prev {
+    left: 0;
+    display: none !important;
+  }
+  .owl-nav button.owl-next {
+    right: 0;
+    display: none !important;
+  }
+
+.case-studies-section{
+    padding: 2rem;
+}
+.logo-icons{
+    padding: 3rem;
+}

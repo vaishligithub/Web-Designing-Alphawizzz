@@ -1,0 +1,72 @@
+@media(max-width:1199px){
+    .prod-box{
+        width:13rem;
+    }
+    .card3{
+        margin-top: 2rem;
+    }
+    .policy-box{
+        margin-top: 2rem;
+    }
+    .subscribe-input {
+        width: 60%;
+        margin-left: 15px;
+      
+    }
+    .deal-sec{
+        margin-bottom: 2rem;
+    }
+    .left-box,.right-box{
+        padding: 0;
+    }
+    .right-box{
+        margin-top: 2rem;
+    }
+    .margin-top{
+        margin-top: 1rem;
+    }
+    .grocery .heading{
+        margin-bottom: 0;
+    }
+    .cart{
+        width: 100%;
+        margin-top: 2rem;
+    }
+    .second .row{
+        flex-direction: row;
+        justify-content: flex-start;
+        gap: 0 !important;
+    }
+}
+@media(max-width:768px){
+    .content {
+     float:none; 
+        margin-right: 1rem; 
+        margin-top: 3rem; 
+        line-height: 3rem;
+    }
+    .prod-box{
+        width:100%;
+    }
+    .green-icon {
+        /* color: #ffffff; */
+        margin-top: 2rem;
+    }
+    .top-nav{
+        display: none;
+    }
+    .products{
+        padding: 0;
+    }
+    .policies{
+        padding: 0;
+    }
+    .story-box img {
+        height: 13rem;
+        width: 100%;
+    }
+    .right-footer{
+        display: flex;
+        flex-direction: column;
+      }
+}
